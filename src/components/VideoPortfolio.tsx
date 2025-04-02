@@ -4,15 +4,15 @@ import { Play } from 'lucide-react';
 const perfume = "/assets/3D/perfume.mp4";
 const bottle = "/assets/3D/bottle.mp4";
 const watch = "/assets/3D/watch.mp4";
-import c1 from '/assets/cinematic/1.mp4'
-import c2 from '/assets/cinematic/2.mp4'
-import c3 from '/assets/cinematic/3.mp4'
-import m1 from '/assets/motion/1.mp4'
-import m2 from '/assets/motion/2.mp4'
-import m3 from '/assets/motion/3.mp4'
-import u1 from '/assets/UGC/1.mp4'
-import u2 from '/assets/UGC/2.mp4'
-import u3 from '/assets/UGC/3.mp4'
+const c1 = '/assets/cinematic/1.mp4'
+const c2 = '/assets/cinematic/2.mp4'
+const c3 = '/assets/cinematic/3.mp4'
+const m1 = '/assets/motion/1.mp4'
+const m2 = '/assets/motion/2.mp4'
+const m3 = '/assets/motion/3.mp4'
+const u1 = '/assets/UGC/1.mp4'
+const u2 = '/assets/UGC/2.mp4'
+const u3 = '/assets/UGC/3.mp4'
 
 interface VideoProject {
   id: string;
