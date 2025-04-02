@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import draft from '/public/assets/draft.mp4'
+import draft from '/assets/draft.mp4'
 const Hero = () => {
   const scrollToWork = () => {
     document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' });
