@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import voxel from '/public/assets/voxel.png'
+import voxel from '/assets/voxel.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
