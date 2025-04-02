@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Play } from 'lucide-react';
-import bottle from '/assets/3D/bottle.mp4'
-import perfume from '/assets/3D/perfume.mp4'
-import watch  from '/assets/3D/watch.mp4'
+const perfume = "/assets/3D/perfume.mp4";
+const bottle = "/assets/3D/bottle.mp4";
+const watch = "/assets/3D/watch.mp4";
 import c1 from '/assets/cinematic/1.mp4'
 import c2 from '/assets/cinematic/2.mp4'
 import c3 from '/assets/cinematic/3.mp4'
