@@ -1,18 +1,18 @@
 import { useState, useRef, useEffect } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Play } from 'lucide-react';
-import bottle from '/public/assets/3D/bottle.mp4'
-import perfume from '/public/assets/3D/perfume.mp4'
-import watch  from '/public/assets/3D/watch.mp4'
-import c1 from '/public/assets/cinematic/1.mp4'
-import c2 from '/public/assets/cinematic/2.mp4'
-import c3 from '/public/assets/cinematic/3.mp4'
-import m1 from '/public/assets/motion/1.mp4'
-import m2 from '/public/assets/motion/2.mp4'
-import m3 from '/public/assets/motion/3.mp4'
-import u1 from '/public/assets/UGC/1.mp4'
-import u2 from '/public/assets/UGC/2.mp4'
-import u3 from '/public/assets/UGC/3.mp4'
+import bottle from '/assets/3D/bottle.mp4'
+import perfume from '/assets/3D/perfume.mp4'
+import watch  from '/assets/3D/watch.mp4'
+import c1 from '/assets/cinematic/1.mp4'
+import c2 from '/assets/cinematic/2.mp4'
+import c3 from '/assets/cinematic/3.mp4'
+import m1 from '/assets/motion/1.mp4'
+import m2 from '/assets/motion/2.mp4'
+import m3 from '/assets/motion/3.mp4'
+import u1 from '/assets/UGC/1.mp4'
+import u2 from '/assets/UGC/2.mp4'
+import u3 from '/assets/UGC/3.mp4'
 
 interface VideoProject {
   id: string;
