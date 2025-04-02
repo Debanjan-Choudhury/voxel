@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Play } from 'lucide-react';
-const perfume = "/assets/3D/perfume.mp4";
-const bottle = "/assets/3D/bottle.mp4";
-const watch = "/assets/3D/watch.mp4";
+const perfume = "/assets/3d/perfume.mp4";
+const bottle = "/assets/3d/bottle.mp4";
+const watch = "/assets/3d/watch.mp4";
 const c1 = '/assets/cinematic/1.mp4'
 const c2 = '/assets/cinematic/2.mp4'
 const c3 = '/assets/cinematic/3.mp4'
@@ -145,11 +145,11 @@ const VideoPortfolio = () => {
         <h2 className="section-title">Our Works</h2>
         <Tabs defaultValue="3d" className="w-full">
           <TabsList className="flex overflow-x-auto md:overflow-x-visible md:max-w-[600px]  md:mx-auto  md:flex-wrap justify-start md:justify-center md:gap-5  gap-2 md:mb-8 mb-8 md:p-2 p-2 border rounded-lg hide-scrollbar  md:hide-scrollbar ">
-            
+            <TabsTrigger value="3d">3D Animation</TabsTrigger>
             <TabsTrigger value="ugc">UGC Content</TabsTrigger>
             <TabsTrigger value="cinematic">Cinematic</TabsTrigger>
             <TabsTrigger value="motion">Motion Graphics</TabsTrigger>
-            <TabsTrigger value="3d">3D Animation</TabsTrigger>
+            
           </TabsList>
           {['3d', 'ugc', 'cinematic', 'motion'].map((category) => (
             <TabsContent key={category} value={category}>
