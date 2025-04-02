@@ -34,7 +34,7 @@ const VideoPortfolio = () => {
       title: '3D Watch Animation',
       category: '3d',
       videoUrl: watch,
-      aspectRatio: 'landscape',
+      aspectRatio: 'portrait',
       description: 'Elegant 3D animation showcasing premium watch design with detailed mechanical elements',
     },
     {
@@ -42,7 +42,7 @@ const VideoPortfolio = () => {
       title: '3D bottle Animation',
       category: '3d',
       videoUrl: bottle,
-      aspectRatio: 'landscape',
+      aspectRatio: 'portrait',
       description: 'Dynamic 3D product animation highlighting features and design elements',
     },
     {
@@ -50,7 +50,7 @@ const VideoPortfolio = () => {
       title: '3D perfume Animation',
       category: '3d',
       videoUrl: perfume, 
-      aspectRatio: 'landscape',
+      aspectRatio: 'portrait',
       description: 'Immersive architectural walkthrough showcasing spatial design and lighting',
     },
     // UGC Content - Portrait videos
