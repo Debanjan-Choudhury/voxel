@@ -1,5 +1,9 @@
 import React from 'react';
 import { Camera, Film, Video, Play } from 'lucide-react';
+import film from '/public/assets/film.jpg'
+import play from '/public/assets/play.jpg'
+import videos from '/public/assets/video.jpg'
+import camera from '/public/assets/camera.jpg'
 
 const About = () => {
   return (
@@ -59,7 +63,7 @@ const About = () => {
     <div className="bg-voxel-gray rounded-lg p-2 neon-glow aspect-square transition-transform transform hover:scale-105 duration-300">
       <div className="h-full bg-black/50 rounded flex items-center justify-center hover:bg-black/70 transition-all duration-300">
         <img
-          src="/src/assets/camera.jpg"
+          src={camera}
           alt="Camera"
           className="h-full w-full hover:scale-110 transition-transform duration-300"
         />
@@ -70,7 +74,7 @@ const About = () => {
     <div className="bg-voxel-gray rounded-lg p-2 aspect-video transition-transform transform hover:scale-105 duration-300">
       <div className="h-full bg-black/50 rounded flex items-center justify-center hover:bg-black/70 transition-all duration-300">
         <img
-          src="/src/assets/video.jpg"
+          src={videos}
           alt="Video"
           className="h-full w-full hover:scale-110 transition-transform duration-300"
         />
@@ -84,7 +88,7 @@ const About = () => {
     <div className="bg-voxel-gray rounded-lg p-2 aspect-video transition-transform transform hover:scale-105 duration-300">
       <div className="h-full bg-black/50 rounded flex items-center justify-center hover:bg-black/70 transition-all duration-300">
         <img
-          src="/src/assets/film.jpg"
+          src={film}
           alt="Film"
           className="h-full w-full hover:scale-110 transition-transform duration-300"
         />
@@ -95,7 +99,7 @@ const About = () => {
     <div className="bg-voxel-gray rounded-lg p-2 neon-glow aspect-square transition-transform transform hover:scale-105 duration-300">
       <div className="h-full bg-black/50 rounded flex items-center justify-center hover:bg-black/70 transition-all duration-300">
         <img
-          src="/src/assets/play.jpg"
+          src={play}
           alt="Play"
           className="h-full w-full hover:scale-110 transition-transform duration-300"
         />

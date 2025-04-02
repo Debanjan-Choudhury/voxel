@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-
+import voxel from '/public/assets/voxel.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -67,7 +67,7 @@ const Navbar = () => {
       <div className="voxel-container flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-glow text-voxel flex items-center">
         <img
-          src="/src/assets/voxel.png"
+          src={voxel}
           alt="Voxel Logo"
           className="mr-2 h-8 w-15 rounded"
         />

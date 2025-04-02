@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
+import draft from '/public/assets/draft.mp4'
 const Hero = () => {
   const scrollToWork = () => {
     document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' });
@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="bg-voxel-gray rounded-lg p-2 aspect-video relative z-10">
             {/* Embed the video with autoplay */}
             <video
-              src="/src/assets/draft.mp4"
+              src={draft}
               autoPlay
               loop
               muted

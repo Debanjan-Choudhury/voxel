@@ -1,6 +1,18 @@
 import { useState, useRef, useEffect } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Play } from 'lucide-react';
+import bottle from '/public/assets/3D/bottle.mp4'
+import perfume from '/public/assets/3D/perfume.mp4'
+import watch  from '/public/assets/3D/watch.mp4'
+import c1 from '/public/assets/cinematic/1.mp4'
+import c2 from '/public/assets/cinematic/2.mp4'
+import c3 from '/public/assets/cinematic/3.mp4'
+import m1 from '/public/assets/motion/1.mp4'
+import m2 from '/public/assets/motion/2.mp4'
+import m3 from '/public/assets/motion/3.mp4'
+import u1 from '/public/assets/UGC/1.mp4'
+import u2 from '/public/assets/UGC/2.mp4'
+import u3 from '/public/assets/UGC/3.mp4'
 
 interface VideoProject {
   id: string;
@@ -21,7 +33,7 @@ const VideoPortfolio = () => {
       id: '3d-1',
       title: '3D Watch Animation',
       category: '3d',
-      videoUrl: '/src/assets/3d/watch.mp4',
+      videoUrl: watch,
       aspectRatio: 'landscape',
       description: 'Elegant 3D animation showcasing premium watch design with detailed mechanical elements',
     },
@@ -29,7 +41,7 @@ const VideoPortfolio = () => {
       id: '3d-2',
       title: '3D bottle Animation',
       category: '3d',
-      videoUrl: '/src/assets/3d/bottle.mp4',
+      videoUrl: bottle,
       aspectRatio: 'landscape',
       description: 'Dynamic 3D product animation highlighting features and design elements',
     },
@@ -37,7 +49,7 @@ const VideoPortfolio = () => {
       id: '3d-3',
       title: '3D perfume Animation',
       category: '3d',
-      videoUrl: '/src/assets/3d/perfume.mp4', 
+      videoUrl: perfume, 
       aspectRatio: 'landscape',
       description: 'Immersive architectural walkthrough showcasing spatial design and lighting',
     },
@@ -46,7 +58,7 @@ const VideoPortfolio = () => {
       id: 'ugc-1',
       title: '',
       category: 'ugc',
-      videoUrl: '/src/assets/UGC/1.mp4',
+      videoUrl: u1,
       aspectRatio: 'portrait',
       description: 'Trendy vertical format fashion content optimized for Instagram stories',
     },
@@ -54,7 +66,7 @@ const VideoPortfolio = () => {
       id: 'ugc-2',
       title: '',
       category: 'ugc',
-      videoUrl: '/src/assets/UGC/2.mp4',
+      videoUrl: u2,
       aspectRatio: 'portrait',
       description: 'Authentic product review in vertical format for maximum social media engagement',
     },
@@ -62,7 +74,7 @@ const VideoPortfolio = () => {
       id: 'ugc-3',
       title: '',
       category: 'ugc',
-      videoUrl: '/src/assets/UGC/3.mp4',
+      videoUrl: u3,
       aspectRatio: 'portrait',
       description: 'Viral-ready vertical content designed for TikTok and Reels',
     },
@@ -71,7 +83,7 @@ const VideoPortfolio = () => {
       id: 'cine-1',
       title: 'Brand Story',
       category: 'cinematic',
-      videoUrl: '/src/assets/cinematic/1.mp4',
+      videoUrl: c1,
       aspectRatio: 'landscape',
       description: 'Emotional cinematic storytelling with dramatic visuals and compelling narrative',
     },
@@ -79,7 +91,7 @@ const VideoPortfolio = () => {
       id: 'cine-2',
       title: 'Motion Typography',
       category: 'cinematic',
-      videoUrl: '/src/assets/cinematic/2.mp4',
+      videoUrl: c2,
       aspectRatio: 'landscape',
       description: 'Dynamic motion graphics with kinetic typography and visual effects',
     },
@@ -87,7 +99,7 @@ const VideoPortfolio = () => {
       id: 'cine-3',
       title: 'Event Highlight',
       category: 'cinematic',
-      videoUrl: '/src/assets/cinematic/3.mp4',
+      videoUrl: c3,
       aspectRatio: 'landscape',
       description: 'Cinematic coverage of live events with professional color grading',
     },
@@ -96,7 +108,7 @@ const VideoPortfolio = () => {
       id: 'motion-1',
       title: 'Explainer Video',
       category: 'motion',
-      videoUrl: '/src/assets/motion/1.mp4',
+      videoUrl: m1,
       aspectRatio: 'landscape',
       description: 'Engaging motion graphics explainer video with smooth animations',
     },
@@ -104,7 +116,7 @@ const VideoPortfolio = () => {
       id: 'motion-2',
       title: 'Title Sequence',
       category: 'motion',
-      videoUrl: '/src/assets/motion/2.mp4',
+      videoUrl: m2,
       aspectRatio: 'landscape',
       description: 'Stylish and modern title sequence with glitch effects',
     },
@@ -112,7 +124,7 @@ const VideoPortfolio = () => {
       id: 'motion-3',
       title: 'Infographic Animation',
       category: 'motion',
-      videoUrl: '/src/assets/motion/3.mp4',
+      videoUrl: m3,
       aspectRatio: 'landscape',
       description: 'Data-driven infographic animation for clear visual storytelling',
     },
